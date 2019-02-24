@@ -1,2 +1,2 @@
-![](https://github.com/audricganser/audricganser.github.io/blob/master/img/terraformneptunegremlin.png =600x300)
+<img src="https://github.com/audricganser/audricganser.github.io/blob/master/img/terraformneptunegremlin.png" height="125" width="300">
 # terraform-neptune-gremlin
