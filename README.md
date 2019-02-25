@@ -2,4 +2,4 @@
 
 # Terrform: AWS Neptune Gremlin Setup
 
-Instructions coming soonn
+Instructions coming soon
