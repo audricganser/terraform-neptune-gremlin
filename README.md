@@ -1,4 +1,4 @@
-<img src="https://github.com/audricganser/audricganser.github.io/blob/master/img/terraformneptunegremlin.png" height="125" width="300">
+<img src="https://github.com/audricganser/audricganser.github.io/blob/master/img/terraformneptunegremlin.png" height="115" width="300">
 
 # Terraform: AWS Neptune Gremlin Setup
 
