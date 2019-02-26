@@ -20,9 +20,9 @@ $ pip3 install awscli --upgrade --user
 
 2. `vars.tf` contains variables that are needed for your Neptune instance. Fill in these variables with the values associated with your AWS account.
 
-3. Run `$terraform plan`, to make sure all resources are created correctly
+3. Run `$ terraform plan`, to make sure all resources are created correctly
 
-4. Run `$terraform apply`
+4. Run `$ terraform apply`
 
 ## Gremlin
 1. Go to the AWS console -> EC2 -> Running instances.
