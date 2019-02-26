@@ -39,9 +39,9 @@ PEM file example content:
 -----END RSA PRIVATE KEY-----
 ```
 
-4. Click on the connect button above and follow the commands given to ssh into instance.
+4. Click on the connect button above the instance console, and follow the commands given to ssh into the instance.
 
-5. Once logged into your EC2 instance go through the following [AWS instructions](https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin-console.html) to finalize the Gremlin installation.
+5. Once SSH'd into your EC2 instance go through the following [AWS instructions](https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin-console.html) to finalize the Gremlin installation.
 
 ### Extra:
 AWS provides instructions to connect to your Neptune DB instance in different ways found [here](https://docs.aws.amazon.com/neptune/latest/userguide/access-graph-gremlin.html)
