@@ -29,9 +29,9 @@ $ pip3 install awscli --upgrade --user
 
 2. Select your instance
 
-3. Add a PEM file to your `~/.aws` directory that matches you key pair name on your EC2 instance.
-Ex. `your_instance_key_pair_name.pem` which contains your RSA private key
-Ex.
+3. Add a PEM file to your `~/.aws` directory that matches you key pair name on your EC2 instance.  
+Ex. `your_instance_key_pair_name.pem`  
+PEM file example content:
 ```
 -----BEGIN RSA PRIVATE KEY-----
 123456qwert23456rtyu234567891234
