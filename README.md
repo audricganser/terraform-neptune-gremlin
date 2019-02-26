@@ -4,8 +4,8 @@
 
 ## Warning:
 This Neptune Terraform is a bare bones setup. Your Neptune instance will be
-internet facing and anybody will be able to access it. For more detailed
-instructions about how to set up iam authentication please visit: [AWS iam-auth](https://docs.aws.amazon.com/neptune/latest/userguide/iam-auth.html).
+internet facing, and anybody will be able to access it. For more detailed
+instructions on how to set up iam authentication please visit: [AWS iam-auth](https://docs.aws.amazon.com/neptune/latest/userguide/iam-auth.html).
 
 ## AWS CLI
 1. Install the AWS CLI in order for you to log into AWS through the terminal:
