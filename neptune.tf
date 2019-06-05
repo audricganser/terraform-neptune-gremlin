@@ -7,7 +7,7 @@ resource "aws_neptune_cluster_instance" "cluster_instance" {
 }
 
 resource "aws_neptune_cluster" "default" {
-  cluster_identifier                  = "${var.cluster_identifier}"
+  cluster_identifier                  = "${var.cluster_name}-identifier"
   engine                              = "${var.engine}"
   availablity_zones                   = "${var.availability_zones}"
   backup_retention_period             = "${var.backup_retention_period}"
@@ -17,7 +17,7 @@ resource "aws_neptune_cluster" "default" {
   apply_immediately                   = "${var.apply_immediately}"
   vpc_security_group_ids              = "${var.vpc_security_group_ids}"
   neptune_subnet_group_name           = "${aws.neptune_subnet_group.default.name}"
-  final_snapshot_identifier           = "${var.cluster_name}-identifier"
+  final_snapshot_identifier           = "${var.cluster_name}-snapshot"
 }
 
 resource "aws_neptune_subnet_group" "default" {
