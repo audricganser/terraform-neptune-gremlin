@@ -18,7 +18,7 @@ variable "publicly_accessible" {
   type = "string"
 }
 
-varible "vpc_id" {
+variable "vpc_id" {
   type = "string"
 }
 
@@ -30,7 +30,7 @@ variable "preferred_backup_window" {
   type = "string"
 }
 
-varible "skip_final_snapshot" {
+variable "skip_final_snapshot" {
   type = "string"
 }
 
@@ -42,7 +42,7 @@ variable "apply_immediately" {
   type = "string"
 }
 
-varible "vpc_security_group_ids" {
+variable "vpc_security_group_ids" {
   type = "list"
 }
 
